@@ -2,11 +2,11 @@
   "name": "aurea-dental",
   "version": "1.0.0",
   "private": true,
-  "description": "Aurea Dental — premium dental clinic website",
+  "description": "Aurea Dental \u2014 premium dental clinic website",
   "scripts": {
-    "dev": "next dev --webpack",
-    "build": "next build --webpack",
-    "start": "next start"
+    "dev": "node api.js && next dev --webpack",
+    "build": "node api.js && next build --webpack",
+    "start": "node api.js && next start"
   },
   "keywords": [],
   "author": "",
